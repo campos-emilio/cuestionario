@@ -4,9 +4,9 @@ Luis Angel Martínez Romero
 Emilio Campos Cabañas
 4°"F"
 
-1. En tus palabras, ¿Qué es internet?
+1. En tus palabras, ¿Qué es internet? 
 
-El internet es una red  de redes que se compone de dispositivos al rededor del mundo enlasados
+El internet es una red  de redes que se compone de dispositivos al rededor del mundo enlazados
 en forma de tela de araña de manera que pueda funcionar sin importar que alguna punto de 
 conexión no funcione.
 
@@ -20,14 +20,16 @@ Region Network
 Subnetwotk
 Device network
 
-El DNS nos permite encontrar el dominio al que los dispositivos con una dirección IP se conectan para poder reconocer
-con el nombre del sitio web al que se requiera ir. 
+El DNS nos permite encontrar el dominio al que los dispositivos con una dirección IP se 
+quieren conectar para poder reconocer con el nombre del sitio web al que se requiera ir. 
+
+Un ejemplo podría ser www.amazon.com
 
 4. Describe el procedimiento por el cual una canción de Spotify llega del servidor de la compañía a tu celular.
 
 
 
-5. Describe los protocolos que existen en internet, en específico HTTP y HTML
+5. Describe los protocolos que existen en internet, en específico HTTP y HTML.
 
 
 Cuando queremos ingresar a un dominio o sitio web, nuestra computadora se comunica con otra
@@ -37,5 +39,16 @@ para mandar instrucciones "GET" para obtener el código HTML del sitio web y se 
 El HTML(Hyper Text Markup Language) se usa para darle un formato al texto o al sitio web 
 
 6. En dos párrafos cuéntanos lo que aprendiste sobre encriptación y llaves públicas.
+
 7. En dos párrafos cuéntanos lo que aprendiste sobre cómo protegerte de los criminales en internet.
+
+Desde mi conocimiento y por lo visto en los videos me puedo dar cuenta que todos los ataques o intentos de 
+crimen hacia un usuario se permiten por un error humano, es decir nosotros sin saberlo le damos acceso
+a un hacker accediendo a sitios web, descargando archivos dudosos o iniciando sesión en páginas no seguras.
+
+Por lo tanto debemos de tener en cuenta los sitios web que consultamos, en donde iniciamos sesión, como medida 
+extra de seguridad podemos usar algún VPN gratuito y un AddGuard, cambiar constantemente nuestras contraseñas
+o al menos 1 vez cada 6 meses, y con estos sencillos pasos podemos hace nuestra navegación un poco más segura.
+
+
 8. ¿Cómo funciona la búsqueda de google?
