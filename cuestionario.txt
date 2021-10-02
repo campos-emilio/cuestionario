@@ -2,7 +2,7 @@ CUESTIONARIO
 
 Luis Angel Martínez Romero
 Emilio Campos Cabañas
-4°"F"
+4°F
 
 1. En tus palabras, ¿Qué es internet? 
 
@@ -11,6 +11,16 @@ en forma de tela de araña de manera que pueda funcionar sin importar que alguna
 conexión no funcione.
 
 2. Describe los medios físicos y de propagación de ondas por los que se transmite la información en internet.
+
+Electricidad: Es barata pero tiene pérdida de señal.
+Luz: Es muy rápida y no hay perdida de señal, sin embargo es costosa y dificil de trabajar.
+Radio ondas: Es portatil, desafortunadamente tiene corto alcance.
+
+Para mandar un bit por electricidad, imagina que tienes dos focos conectados con un alambre de 
+cobre. Si un operador enciende un dispositivo la luz se prende. No electricidad, no luz. Si los operadores se 
+ponen de acuerdo que luz encendida es 1 y luz apagada 0. Para mandar señales con intervalos se debe dejar apagada
+o encendida la luz durante las veces que se quiera indicar, por ejemplo: Si, si, si, si (luz prendida 4 segundos).
+
 3. ¿Cómo se organiza internet? Habla de las direcciones IP y los DNS.
 
 La IP (Internet Protocol) es la dirección cada dispositivo tiene para está dividida en:
@@ -27,7 +37,11 @@ Un ejemplo podría ser www.amazon.com
 
 4. Describe el procedimiento por el cual una canción de Spotify llega del servidor de la compañía a tu celular.
 
-
+Mediante TCP por sus siglas en inglés, (Transmission Control Protocol). Cuando solicitas una canción al dispositivo,
+Spotify envía la canción en muchos paquetes, cuando estos llegan TCP hace un inventario y envía una contestación a
+cada paquete recibido,si todos están ahí, TCP los envía y listo. Sin embargo si TCP no encuentra los paquetes correctos
+no los enviará y la canción se escuchará mal o faltarán partes, afortunadamente Spotify los puede reenviar para que
+la canción suene correctamente.
 
 5. Describe los protocolos que existen en internet, en específico HTTP y HTML.
 
@@ -40,6 +54,14 @@ El HTML(Hyper Text Markup Language) se usa para darle un formato al texto o al s
 
 6. En dos párrafos cuéntanos lo que aprendiste sobre encriptación y llaves públicas.
 
+El cifrado o encriptación, es un proceso en el cual la información se revuelve o se cambia para ocultar el 
+mensaje original. Por otro lado, el decifrado es el proceso de ordenar un mensaje para que sea legible.
+
+Las llaves públicas o llaves de cifrado asimétrico, pueden ser intercambiadas con cualquiera, o con una llave
+privada (no compartida).
+Las llaves públicas sirven para cifrar datos y la puede utilizar quien sea para crear
+mensajes secretos, pero este solo puede ser descifrado por una computadora con acceso a una llave privada.
+
 7. En dos párrafos cuéntanos lo que aprendiste sobre cómo protegerte de los criminales en internet.
 
 Desde mi conocimiento y por lo visto en los videos me puedo dar cuenta que todos los ataques o intentos de 
@@ -50,5 +72,10 @@ Por lo tanto debemos de tener en cuenta los sitios web que consultamos, en donde
 extra de seguridad podemos usar algún VPN gratuito y un AddGuard, cambiar constantemente nuestras contraseñas
 o al menos 1 vez cada 6 meses, y con estos sencillos pasos podemos hace nuestra navegación un poco más segura.
 
-
 8. ¿Cómo funciona la búsqueda de google?
+
+El Internet es una red de páginas conectadas a través de hipervínculos, los buscadores constantemente corren un 
+programa llamado la "araña" que camina a trevés de estas páginas para recolectar información sobre ellas. Cada 
+vez que encuentra un hipervínculo, lo sigue hasta que haya visitado cada página que pueda encontrar en todo el 
+Internet. Por cada página que visita la "araña" graba información que pudiera necesitar para una búsqueda, pero
+la añade a una base de datos llamada índice de busqueda.
